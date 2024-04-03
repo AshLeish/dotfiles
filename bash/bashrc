@@ -12,7 +12,9 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-PS1='[ \W ] '
+# ( user|hostname )
+# ~$
+PS1='( \u|\H )\n\w$ '
 
 # I like MS-DOS and Windows aliasing 'cls' this way.
 alias cls="clear"
